@@ -11,7 +11,7 @@
     "performance"
   ],
   "scripts": {
-    "test": "npm run jshint && node ./test/index.js | tap-spec",
+    "test": "node ./test/index.js | tap-spec",
     "dot": "node ./test/index.js | tap-dot",
     "bench": "node ./benchmark/urlparser.js",
     "bench-node": "node ./benchmark/nodecore.js",
